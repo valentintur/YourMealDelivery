@@ -1,13 +1,14 @@
 import { Container } from "./assets/components/Container/Container"
+import { Header } from "./assets/components/Header/Header"
 
 export const App = () => {
   
   return (
     <>
-          <header></header>
+          <Header/>
           <main>
             <nav>
-              <Container />
+              <Container className="navigation__container" />
             </nav>
             <section></section>
           </main>
