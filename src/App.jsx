@@ -1,5 +1,6 @@
 import { Container } from "./assets/components/Container/Container"
 import { Header } from "./assets/components/Header/Header"
+import { Navigation } from "./assets/components/Navigation/Navigation"
 
 export const App = () => {
   
@@ -7,9 +8,7 @@ export const App = () => {
     <>
           <Header/>
           <main>
-            <nav>
-              <Container className="navigation__container" />
-            </nav>
+            <Navigation />
             <section></section>
           </main>
           <footer></footer>
