@@ -51,38 +51,38 @@
 
 .button_burger {
     background-image: url('../../img/burger.png');
-}
+} 
 
 .button_snack {
-    background-image: url('../img/snack.png');
-}
+    background-image: url('../../img/snack.png');
+} 
 
 .button_hot-dog {
-    background-image: url('../img/hot-dog.png');
+    background-image: url('../../img/hot-dog.png');
 }
 
 .button_combo {
-    background-image: url('../img/combo.png');
+    background-image: url('../../img/combo.png');
 }
 
 .button_shawarma {
-    background-image: url('../img/shawarma.png');
+    background-image: url('../../img/shawarma.png');
 }
 
 .button_pizza {
-    background-image: url('../img/pizza.png');
+    background-image: url('../../img/pizza.png');
 }
 
 .button_wok {
-    background-image: url('../img/wok.png');
+    background-image: url('../../img/wok.png');
 }
 
 .button_dessert {
-    background-image: url('../img/dessert.png');
+    background-image: url('../../img/dessert.png');
 }
 
 .button_sauce {
-    background-image: url('../img/sauce.png');
+    background-image: url('../../img/sauce.png');
 }
 
 
