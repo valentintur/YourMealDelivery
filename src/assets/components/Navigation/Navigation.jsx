@@ -6,6 +6,7 @@ export const Navigation = () => {
     return (
         <nav className={style.navigation}>
             <Container className={style.container}>
+                <div className=""></div>
                 <ul className={style.list}>
                     <li className={style.item}> 
                         <button

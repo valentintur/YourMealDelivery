@@ -1,3 +1,4 @@
+import { Catalog } from "./assets/components/Catalog/Catalog"
 import { Header } from "./assets/components/Header/Header"
 import { Navigation } from "./assets/components/Navigation/Navigation"
 
@@ -8,7 +9,7 @@ export const App = () => {
           <Header/>
           <main>
             <Navigation />
-            <section></section>
+            <Catalog />
           </main>
           <footer></footer>
     </>
