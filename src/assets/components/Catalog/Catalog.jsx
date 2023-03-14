@@ -1,40 +1,27 @@
+import { CatalogProduct } from "../CatalogProduct/CatalogProduct";
 import {Container} from "../Container/Container"
 import {Order} from "../Order/Order"
-import './catalog.css';
-import './product.css';
+import style from './Catalog.module.css';
 
 export const Catalog = () => {
 
 
     return (
-        <section className='catalog'>
+        <section className={style.catalog}>
             <Container>
-                <div className='catalog__container'>
+                <div className={style.container}>
                     <Order />
 
-                    <div className='catalog__wrapper'>
-                        <h2 className='catalog__title'>Бургеры</h2>
+                    <div className={style.wrapper}>
+                        <h2 className={style.title}>Бургеры</h2>
 
-                        <div className='catalog__wrap_list'>
-                            <ul className='catalog__list'>
-                                <li className='catalog__item'>
-                                    <article className='product'>
-                                        <img src="img/photo-5.jpg" alt="Мясная бомба" className='product__image' />
-
-                                        <p className='product__price'>689<span className='currency'>₽</span>
-                                        </p>
-
-                                        <h3 className='product__title'>
-                                            <button className='product__detail'>Мясная бомба</button>
-                                        </h3>
-
-                                        <p className='product__weight'>520г</p>
-
-                                        <button className='product__add' type="button">Добавить</button>
-                                    </article>
+                        <div className={style.wrap_list}>
+                            <ul className={style.list}>
+                                <li className={style.item}>
+                                    <CatalogProduct /> 
                                 </li>
 
-                                <li className='catalog__item'>
+                                {/* <li className='catalog__item'>
                                     <article className='product'>
                                         <img src="img/photo-1.jpg" alt="Супер сырный" className='product__image' />
 
@@ -117,7 +104,7 @@ export const Catalog = () => {
 
                                         <button className='product__add' type="button">Добавить</button>
                                     </article>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
