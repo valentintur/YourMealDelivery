@@ -12,7 +12,6 @@ export const Count = (props) => {
         if (count > 1) {
             setCount(count - 1);
         }
-        
     }
 
     return (

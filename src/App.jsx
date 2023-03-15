@@ -1,6 +1,6 @@
-import { Catalog } from "./assets/components/Catalog/Catalog"
-import { Header } from "./assets/components/Header/Header"
-import { Navigation } from "./assets/components/Navigation/Navigation"
+import { Catalog } from "./components/Catalog/Catalog"
+import { Header } from "./components/Header/Header"
+import { Navigation } from "./components/Navigation/Navigation"
 
 export const App = () => {
   
