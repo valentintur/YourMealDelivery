@@ -1,9 +1,15 @@
 import style from './Navigation.module.css';
 import { Container } from '../Container/Container';
 import classNames from 'classnames';
+import { useSelector } from 'react-redux';
+
 
 
 export const Navigation = () => {
+
+    const {category} = useSelector(state => {state.category}) 
+    console.log('category: ', category); 
+    
     return (
         
         <nav className={style.navigation}>
